@@ -20,7 +20,7 @@ def settings():
 def mainScreen():
     screen = pygame.display.set_mode(window_size)
     pygame.display.set_caption('BitClicker')
-    menu = pygame_menu.Menu('Welcome', 420, 420, theme=theme_dark)
+    menu = pygame_menu.Menu('Welcome', 420, 420, theme= theme)
     menu.add.button('Play', play)
     menu.add.button('Settings', settings)
     menu.add.button('Exit', pygame_menu.events.EXIT)
