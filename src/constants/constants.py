@@ -8,7 +8,9 @@ theme = themes.THEME_DARK.copy()
 theme_dark = themes.THEME_DARK.copy()
 theme_light = themes.THEME_DEFAULT.copy()
 theme_solar = themes.THEME_SOLARIZED.copy()
+theme_blue = themes.THEME_BLUE.copy()
 
 
-
-
+def update_theme(new_theme):
+    global theme
+    theme = new_theme
